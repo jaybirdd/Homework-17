@@ -1,5 +1,5 @@
 body{
-    background-color:rosybrown;
+    background-color:whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     text-align: center;
@@ -33,12 +33,13 @@ body{
 
 #headerNav .navItem .selectable {
     height: 10px;
-    margin: 0px;
     padding: 0px 20px;
 }
 
-#headerNav .navItem .selected {
+.selected {
     background-color: red;
+    max-height: 5px;
+    margin-top: 5px;
 }
 
 #footerNav {
@@ -59,4 +60,7 @@ body{
     font-size: 10px;
     color: darkgray;
     text-align:left
+}
+.not-selected {
+    opacity: .75;
 }
