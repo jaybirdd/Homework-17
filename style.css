@@ -3,10 +3,11 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     text-align: center;
+    scroll-behavior: smooth;
 }
 
 #headerNav {
-    background-color: grey;
+    background-color: rgb(71, 71, 71);
     height: 60px;
     left: 0;
     width: 100%;
@@ -27,7 +28,7 @@ body{
 
 #headerNav .navItem a {
     text-decoration: none;
-    color: black;
+    color: rgb(199, 199, 199);
     padding: 0px 20px;
 }
 
@@ -37,15 +38,14 @@ body{
 }
 
 .selected {
-    background-color: red;
+    background-color: rgb(26, 26, 26);
     max-height: 5px;
     margin-top: 5px;
 }
 
 #footerNav {
-    background-color: grey;
-    height: 60px;
-    position: fixed;
+    background-color: rgb(71, 71, 71);
+    position:fixed;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -58,9 +58,29 @@ body{
 
 #copyright span {
     font-size: 10px;
-    color: darkgray;
+    color: rgb(199, 199, 199);
     text-align:left
+}
+
+#copyright {
+    display: inline-block;
 }
 .not-selected {
     opacity: .75;
 }
+
+#socialLinks > a > img {
+vertical-align: middle;
+}
+#socialLinks  {
+        display: inline-block;
+    }
+    #socialLinks > span {
+        color: whitesmoke;
+    }
+
+    .fspacer {
+margin-top: 100px;
+        height: 10px;
+        min-height: 100px;
+    }
